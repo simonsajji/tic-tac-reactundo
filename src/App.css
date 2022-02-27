@@ -11,6 +11,7 @@
     text-align: center;
     width: 80px;
     line-height: 80px;
+    cursor:pointer;
     height: 80px;
     display: inline-block;
       text-decoration: none;
@@ -41,6 +42,7 @@
    
    }
    .square:active {
+       cursor:pointer;
     background-image: linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
     background-image: -o-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(88,154,204) 0%, rgb(90,150,199) 100%);
@@ -76,6 +78,7 @@
    /* Game Info */
   ul {
     padding-left: 30px;
+      cursor:pointer;
    }
    .game-info {
     margin-left: 20px;
